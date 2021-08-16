@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/irisCNN.dir/main.cpp.o  -o irisCNN  src/libsrc.a 

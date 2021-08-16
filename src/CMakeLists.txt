@@ -1,0 +1,2 @@
+AUX_SOURCE_DIRECTORY(. src)
+ADD_LIBRARY(src ${src})

@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/DataLoader.h
+string
+-
+vector
+-
+tr1/unordered_map
+-
+
+../src/NN.h
+Neuron.h
+-
+DataLoader.h
+-
+vector
+-
+
+../src/Neuron.h
+vector
+-
+
+/mnt/c/Users/0/irisCNN/src/NN.cpp
+NN.h
+-
+cmath
+-
+random
+-
+chrono
+-
+iostream
+-
+

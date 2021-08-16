@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc.a  CMakeFiles/src.dir/DataLoader.cpp.o CMakeFiles/src.dir/NN.cpp.o CMakeFiles/src.dir/Neuron.cpp.o
+/usr/bin/ranlib libsrc.a
